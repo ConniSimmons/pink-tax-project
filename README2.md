@@ -46,20 +46,19 @@ X Change directories into <project-name>-api
 *Add the following lines 
 *.env 
 *node_modules 
-Run the following commands in the CLI from the <project-name>-api directory 
-git init 
-git add -A 
-git commit -m "Initial Commit of <project-name> API" 
-Create a .env file and add the following Key/Value pairs 
-ATLAS_CONNECTION= (find the connection string to your Mongo Atlas Cluster) 
-PORT= (give it some unique number in the 5000s) 
-This will be used below as <port-from-above> 
-Return to the <project-name> folder and run the following command in your CLI   
-npx create-react-app <project-name>-ui  
-Change directories into <project-name>-api 
-Open Visual Studio Code 
-Modify the .gitignore file with the following line 
-.env 
+*Run the following commands in the CLI from the <project-name>-api directory 
+*git init 
+*git add -A 
+*git commit -m "Initial Commit of <project-name> API" 
+*Create a .env file and add the following Key/Value pairs 
+ATLAS_CONNECTION= mongodb+srv://<username>:<password>@cluster0-mznto.mongodb.net/test?retryWrites=true&w=majority
+*PORT= 5555
+*This will be used below as 5555 
+XReturn to the <ptax> folder and run the following command in your CLI   
+Xnpx create-react-app <project-name>-ui  
+XChange directories into <project-name>-api 
+*Open Visual Studio Code 
+*Modify the .gitignore file with the following line: .env 
 Run the following commands in the CLI from the <project-name>-api directory 
 git add -A 
 git commit -m "Ignoring Environment Variables in <project-name> UI" 
