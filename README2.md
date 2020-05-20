@@ -59,22 +59,21 @@ Xnpx create-react-app <project-name>-ui
 XChange directories into <project-name>-api 
 *Open Visual Studio Code 
 *Modify the .gitignore file with the following line: .env 
-Run the following commands in the CLI from the <project-name>-api directory 
-git add -A 
-git commit -m "Ignoring Environment Variables in <project-name> UI" 
-Create a .env file and add the following Key/Value pairs 
-API_URL= (for development this is http://localhost:<port-from-above>Links to an external site.Links to an external site.) 
-Note that you should still be in your named project folder with only two subdirectories 
-<project-name>-api 
-<project-name>-ui 
-The next several steps will involve pushing these two layers up to GitHub as unique Repos 
-Using the Web Browser of your choice, navigate to Github 
-Create two new Repos that match the names of the folder 
-<project-name>-api 
-<project-name>-ui 
-Found on the dashboard screen for those two Repos are instructions for pushing to Git 
-Follow '…or push an existing repository from the command line' instruction set for both Repos 
-Congratulations! Your Full Stack Web App Project Ecosystem is ready to start development.
+*Run the following commands in the CLI from the <ptax>-api directory: git add -A 
+*git commit -m "Ignoring Environment Variables in <project-name> UI" 
+X Create a .env file and add the following Key/Value pairs 
+*API_URL= (for development this is http://localhost:<port-from-above>Links to an external site.Links to an external site.) 
+XNote that you should still be in your named project folder with only two subdirectories 
+X<project-name>-api 
+X<project-name>-ui 
+*The next several steps will involve pushing these two layers up to GitHub as unique Repos 
+*Using the Web Browser of your choice, navigate to Github 
+XCreate two new Repos that match the names of the folder 
+X<project-name>-api 
+X<project-name>-ui 
+*Found on the dashboard screen for those two Repos are instructions for pushing to Git 
+*Follow '…or push an existing repository from the command line' instruction set for both Repos 
+*Congratulations! Your Full Stack Web App Project Ecosystem is ready to start development.
 Deliverables:
 Once the project is done, provide links to the hosted project and the GitHub URLs where your code lives. 
 
