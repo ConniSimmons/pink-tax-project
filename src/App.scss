@@ -1,0 +1,79 @@
+$myRed: #9a031e;
+$ltGrey: rgb(189, 186, 186);
+$mdGrey: #7C7A7A;
+$dkGrey: #494949;
+$myWht: #dfdbdb;
+$myBlk: #000000;
+
+.logo {
+  font-weight: 900;
+  font-size: 5em;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(90deg, rgba(155,79,91,1) 19%, rgba(223,219,219,1) 50%, rgba(48,46,46,1) 100%);
+  background-clip: text;
+  color: transparent;
+  margin-left: 40px;
+  
+}
+
+.page-wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+.main-header {
+  display: flex;
+  flex-flow: row;
+  background-color: #000000;
+  text-align: center;
+}
+
+.content {
+  flex: 1;
+  padding: 1em;
+  background-color: #9b4f5b;
+  color: #dfdbdb;
+  text-align: center;
+}
+
+
+
+.main-footer {
+  background: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.form {
+  background-color: #fb8b24;
+  color: #dfdbdb
+}
+
+footer > p {
+  color: #dfdbdb
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #9a031e;
+}
+
