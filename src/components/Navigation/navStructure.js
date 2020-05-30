@@ -1,16 +1,16 @@
 export default [
     {
         label: 'Home',
-        route: '/home',
-    },
-    {
-        label: 'SubmitItem',
-        route: '/submititem'
+        route: '/',
     },
     {
         label: 'Products',
         route: '/products',
             children: [
+                {
+                    label: 'SubmitItem',
+                    route: '/submititem'
+                },
                 {
                     label: 'Personal Items',
                     route: '/personalitems'

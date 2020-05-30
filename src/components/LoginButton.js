@@ -1,6 +1,7 @@
+//TODO FIX FIX FIX
 import React, {Component as RC} from 'react';
 
-export default class Logo extends RC {
+export default class LoginButton extends RC {
     constructor(props)
     {
         super(props);
@@ -8,8 +9,7 @@ export default class Logo extends RC {
     render()
     {
         return(
-            <div className="logo">
-                Pink Tax
+            <div>
                 
             </div>
         )

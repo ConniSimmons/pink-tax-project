@@ -122,10 +122,9 @@ export default class Home extends RC {
   render() {
     return (
       <Page banner={this.state.banner}>
-        <p>Girl, are you ready to be shocked?</p>
+        <p>Lady, are you ready to be shocked? Dismayed?<p> </p>Maybe a little miffed?</p>
         <p>
-          Tell us your birthday, and we'll tell you just how much more it has
-          cost you to pay your Pink Tax.
+          Tell us your birthday, and we'll tell you just how much you've paid in Pink Tax.
         </p>
         <div>
           <h1>PTax Calculator</h1>
